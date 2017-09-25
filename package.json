@@ -1,0 +1,14 @@
+{
+  "name": "nba-fantasy-draft",
+  "description": "a nba draft app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.5.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": ">=4.15.5"
+  }
+}
