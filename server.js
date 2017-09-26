@@ -4,7 +4,7 @@ const server = express();
 server.set("port", (process.env.PORT || 5000));
 
 server.get("*", function (req, res) {
-  res.send("Hello World!")
+  res.send("Hello Jordan!")
 });
 
 server.listen(server.get("port"), function () {
